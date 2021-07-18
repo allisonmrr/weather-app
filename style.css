@@ -1,0 +1,131 @@
+input {
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  color: #ffffff;
+  background-color: #97717c;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 14px;
+  border-width: 1px;
+  border-color: transparent;
+  transition: all 150ms ease-in-out;
+  font-family: "PT Serif", serif;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #fe9e5a;
+}
+
+span {
+  color: rgb(209, 203, 203);
+}
+
+.weatherApp {
+  background-image: url("https://images.pexels.com/photos/5245865/pexels-photo-5245865.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  font-weight: 500;
+  border: 1px solid #97717c;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 14px;
+}
+
+.cityInfo {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.emoji {
+  font-size: 100px;
+}
+
+.city,
+.time,
+.emoji,
+.dayOverview,
+.currentTemp,
+.highLow {
+  text-align: center;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+
+.city {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.time {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.dayOverview {
+  font-size: 18px;
+  font-family: "PT Serif", serif;
+}
+
+.temp {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.fahrenheit-link,
+.celsius-link,
+.units {
+  font-size: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
+}
+
+.fahrenheit-link:hover,
+.celsius-link:hover {
+  color: rgb(209, 203, 203);
+}
+
+.forecastDay,
+.forecastIcon,
+.forecastTemp {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.forecastDay {
+  font-family: "PT Serif", serif;
+}
+
+.forecastTemp {
+  font-family: "Montserrat", sans-serif;
+}
+.forecastIcon {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px;
+  font-family: "PT Serif", serif;
+}
+
+.bg-custom {
+  border-radius: 14px;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  color: rgb(209, 203, 203);
+}
