@@ -129,3 +129,15 @@ span {
 .navbar-brand {
   color: rgb(209, 203, 203);
 }
+
+.github-link {
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 120ms ease-in-out;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
