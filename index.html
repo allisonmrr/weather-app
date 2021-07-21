@@ -53,32 +53,17 @@
             </div>
           </div>
         </form>
-        <div class="row">
-          <div class="col-6">
-            <div class="cityInfo">
-              <h1 class="city" id="city-id">Minneapolis</h1>
-              <ul>
-                <li class="time" id="time-id">This is where the time goes></li>
-                <li class="dayOverview" id="dayOverview">Partly Cloudy</li>
-                <li class="humidity" id="humidity">Humidity: 57%</li>
-                <li class="wind" id="wind">Wind: 3.09 km/h</li>
-              </ul>
-            </div>
+        <div class="cityInfo">
+          <div class="city" id="city-id">Minneapolis</div>
+          <div class="time" id="time-id">This is where the time goes</div>
+          <div class="dayOverview" id="dayOverview">Partly Cloudy</div>
+          <div class="emoji" id="emoji">
+            <i class="fas fa-cloud-showers-heavy"></i>
           </div>
-          <div class="col-2">
-            <div class="clearfix weather-temperature">
-              <img
-                src="http://openweathermap.org/img/wn/01d@2x.png"
-                class="float-left"
-              />
-            </div>
+          <div class="currentTemp">
+            <span class="temp" id="current-temp-id">79</span>
           </div>
-          <div class="col-4">
-            <strong class="temp" id="current-temp-id"
-              >79
-              <span class="units"> ºF</span>
-            </strong>
-          </div>
+          <div class="highLow">H: 79º L: 63º</div>
         </div>
         <div class="row sixDays">
           <div class="col">
@@ -112,7 +97,7 @@
           <div class="col">
             <div class="forecastDay">Thursday</div>
             <div class="forecastIcon">
-              <i class="fas fa-cloud-showers-heavy"></i>
+              <i class="fas fa-cloud-sun"></i>
             </div>
             <div class="forecastTemp">79º <span>61º</span></div>
           </div>
@@ -125,15 +110,7 @@
           </div>
         </div>
         <div class="footer">
-          <p>
-            <a
-              href="https://github.com/allisonmrr/weather-app"
-              class="github-link"
-              target="_blank"
-              >Open-source code</a
-            >
-            by Allison Maurer
-          </p>
+          <p>Coded by Allison Maurer</p>
         </div>
       </div>
     </div>

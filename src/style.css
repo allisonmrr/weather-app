@@ -20,17 +20,6 @@ button:hover {
   background-color: #fe9e5a;
 }
 
-ul {
-  padding: 0px;
-}
-
-li {
-  text-decoration: none;
-  font-size: 16px;
-  list-style: none;
-  padding: 0px;
-}
-
 span {
   color: rgb(209, 203, 203);
 }
@@ -55,15 +44,17 @@ span {
   padding: 20px;
 }
 
+.emoji {
+  font-size: 100px;
+}
+
 .city,
 .time,
-.temp,
 .emoji,
 .dayOverview,
 .currentTemp,
-.humidity,
-.wind {
-  display: block;
+.highLow {
+  text-align: center;
   margin: 0 auto;
   text-transform: capitalize;
 }
@@ -74,9 +65,7 @@ span {
   font-size: 40px;
 }
 
-.time,
-.humidity,
-.wind {
+.time {
   font-family: "PT Serif", serif;
   font-weight: 400;
   font-size: 15px;
@@ -90,10 +79,6 @@ span {
 .temp {
   font-size: 40px;
   color: #ffffff;
-}
-
-.currentEmoji {
-  width: 100px;
 }
 
 .fahrenheit-link,
@@ -143,16 +128,4 @@ span {
 
 .navbar-brand {
   color: rgb(209, 203, 203);
-}
-
-.github-link {
-  text-align: center;
-  text-decoration: none;
-  color: #ffffff;
-  transition: all 120ms ease-in-out;
-}
-
-.github-link:hover {
-  text-decoration: underline;
-  color: #ffffff;
 }
