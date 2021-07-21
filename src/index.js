@@ -31,26 +31,12 @@ function displayWeatherConditions(response) {
   let currentDespriptionDisplay = document.querySelector("#dayOverview");
   currentDespriptionDisplay.innerHTML = response.data.weather[0].description;
 
-  console.log(response.data.weather[0].main);
-  let emojiDisplay = document.querySelector("#emoji");
-  if (response.data.weather[0].main === "Clear") {
-    emojiDisplay.innerHTML = "☀️";
-  }
-  if (response.data.weather[0].main === "Clouds") {
-    emojiDisplay.innerHTML = "☁️";
-  }
-  if (response.data.weather[0].main === "Thunderstorm") {
-    emojiDisplay.innerHTML = "🌩";
-  }
-  if (response.data.weather[0].main === "Drizzle") {
-    emojiDisplay.innerHTML = "🌦";
-  }
-  if (response.data.weather[0].main === "Rain") {
-    emojiDisplay.innerHTML = "🌧";
-  }
-  if (response.data.weather[0].main === "Snow") {
-    emojiDisplay.innerHTML = "🌨";
-  }
+  let iconDisplay = document.querySelector("#emoji");
+  iconDisplay.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconDisplay.setAttribute("alt", response.data.weather[0].description);
 }
 
 function showCityInfo(event) {
