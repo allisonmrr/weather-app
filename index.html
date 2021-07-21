@@ -53,21 +53,32 @@
             </div>
           </div>
         </form>
-        <div class="cityInfo">
-          <h1 class="city" id="city-id">Minneapolis</h1>
-          <ul>
-            <li class="time" id="time-id">This is where the time goes></li>
-            <li class="dayOverview" id="dayOverview">Partly Cloudy</li>
-            <li class="temp" id="current-temp-id">79ºF</li>
-            <div class="emoji" id="emoji">
+        <div class="row">
+          <div class="col-6">
+            <div class="cityInfo">
+              <h1 class="city" id="city-id">Minneapolis</h1>
+              <ul>
+                <li class="time" id="time-id">This is where the time goes></li>
+                <li class="dayOverview" id="dayOverview">Partly Cloudy</li>
+                <li class="humidity" id="humidity">Humidity: 57%</li>
+                <li class="wind" id="wind">Wind: 3.09 km/h</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="clearfix weather-temperature">
               <img
-                class="currentEmoji"
                 src="http://openweathermap.org/img/wn/01d@2x.png"
+                class="float-left"
               />
             </div>
-            <li class="humidity" id="humidity">Humidity: 57%</li>
-            <li class="wind" id="wind">Wind: 3.09 km/h</li>
-          </ul>
+          </div>
+          <div class="col-4">
+            <strong class="temp" id="current-temp-id"
+              >79
+              <span class="units"> ºF</span>
+            </strong>
+          </div>
         </div>
         <div class="row sixDays">
           <div class="col">

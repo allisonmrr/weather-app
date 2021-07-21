@@ -64,7 +64,6 @@ span {
 .humidity,
 .wind {
   display: block;
-  text-align: center;
   margin: 0 auto;
   text-transform: capitalize;
 }
